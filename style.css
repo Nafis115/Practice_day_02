@@ -1,0 +1,351 @@
+.btn {
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.from {
+  width: 30vh;
+}
+
+#home {
+  color: red;
+  font-weight: bold;
+}
+
+.nav_head {
+  padding: 50px;
+}
+
+.hockey {
+  font-size: 5vh;
+  font-weight: bolder;
+  color: rgb(2, 7, 9);
+}
+
+.comma {
+  color: red;
+}
+
+.banner-container {
+  height: 60vh;
+}
+
+.slide_heading {
+  background-color: black;
+  width: 70vh;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 16px;
+  margin-left: 600px;
+}
+
+.s_p {
+  text-align: center;
+  color: rgb(124, 120, 115);
+}
+
+.club {
+  margin-top: 250px;
+  text-align: center;
+  font-size: medium;
+
+}
+
+.descrip {
+  margin-top: 50px;
+  padding-bottom: 20px;
+
+}
+
+.h_p {
+  font-weight: bolder;
+  padding-bottom: 15px;
+}
+
+.progress-bar {
+  margin: 25px;
+  width: 4500px;
+
+}
+
+.pr_c {
+  display: flex;
+  margin-bottom: 90px;
+
+}
+
+.head {
+  font-size: 25px;
+}
+
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 20px;
+  width: 380px;
+  height: 350px;
+
+}
+
+.card .percent {
+  position: relative;
+}
+
+.card svg {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  transform: rotate(-90deg);
+}
+
+.card svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #f0f0f0;
+  stroke-width: 10;
+  stroke-linecap: round;
+}
+
+.card svg circle:last-of-type {
+  stroke-dasharray: 625px;
+  stroke-dashoffset: calc(625px - (625px * var(--percent)) / 100);
+  stroke: #3498db;
+}
+
+.card .number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card .number h3 {
+  font-weight: 200;
+  font-size: 3.5rem;
+}
+
+.card .number h3 span {
+  font-size: 2rem;
+}
+
+.card .title h2 {
+  margin: 25px 0 0;
+}
+
+.card:nth-child(1) svg circle:last-of-type {
+  stroke: #f39c12;
+}
+
+.card:nth-child(2) svg circle:last-of-type {
+  stroke: #2ecc71;
+}
+
+
+.programm {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+.progmm {
+  width: 560px;
+  height: 300px;
+  margin: 5px;
+  border-radius: 15px;
+  background-image: url(/Images/2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.progmm::before {
+  content: "";
+  position: absolute;
+  width: 560px;
+  height: 300px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.4);
+
+}
+
+.progmm1 {
+  width: 560px;
+  height: 300px;
+  margin: 5px;
+  border-radius: 15px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/Images/3.png);
+  background-repeat: no-repeat;
+
+}
+
+.progmm1::before {
+  content: "";
+  position: absolute;
+  width: 560px;
+  height: 300px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.programme_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.descrip {
+  margin-top: 80px;
+  margin-left: 30px;
+  color: white;
+  mix-blend-mode: lighten;
+
+}
+
+.btn_p {
+  color: white;
+  background-color: rgba(250, 100, 100, 1.9);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  mix-blend-mode: hard-light;
+
+}
+
+
+.pro {
+  width: 1180px;
+  height: 420px;
+  margin-top: 20px;
+  margin-left: 60px;
+  border-radius: 15px;
+  background-image: url(/Images/4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 100px;
+
+}
+
+
+
+.pro::before {
+  content: "";
+  position: absolute;
+  width: 1180px;
+  height: 420px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.descrip1 {
+  padding-top: 170px;
+  margin-left: 30px;
+  color: white;
+  mix-blend-mode: lighten;
+
+}
+
+.card1 {
+  display: flex;
+  align-items: first baseline;
+  gap: 10px;
+}
+
+.product_list {
+  border: 1px solid black;
+  width: 650px;
+  height: 265px;
+  border-radius: 10px;
+  box-shadow: 5px 5px;
+}
+
+.product_details {
+  display: flex;
+  gap: 40px;
+  margin: 30px;
+}
+
+.deli {
+  display: flex;
+  gap: 10px;
+}
+
+.ic {
+  padding-left: 30px;
+}
+
+
+.product {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.client {
+  display: flex;
+
+  gap: 100px;
+}
+
+
+
+.mes {
+  padding: 100px;
+}
+
+.si {
+  width: 635px;
+}
+
+.form {
+  margin-bottom: 100px;
+}
+
+.social_icon {
+  display: flex;
+  justify-content: center;
+  width: 5200px;
+  align-items: center;
+  background-color: rgb(248, 244, 244);
+
+  margin-bottom: 80px;
+
+}
+
+.fi {
+  margin-left: 30px;
+}
+
+.fa-brands {
+  font-size: 2em;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+.s_ii {
+  margin-top: 60px;
+}
+
+.foot{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -70px;
+  width: 110%;
+  padding: 100px;
+  
+}

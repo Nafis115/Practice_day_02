@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <title>Hocky</title>
+  </head>
+
+  <!-- nav var -->
+  <body>
+    <nav class="navbar nav_head container navbar-expand-md">
+      <div class="container-fluid">
+        <a class="navbar-brand hockey" href="#"
+          >Hockey<span class="comma">'</span>s</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbar-nav mx-auto mb-2">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-danger me-4"
+                aria-current="page"
+                id="home"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-4" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-4" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-4" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-4" href="#">contact</a>
+            </li>
+          </ul>
+          <form class="d-flex from" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-danger btn-sm" type="submit">
+              Get ticket
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- carosoul -->
+
+    <section class="banner-container container">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/Images/1.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="slide_heading">
+                <h5 class="s_h">Meet all the heroes from the field</h5>
+                <p class="s_p">
+                  Our player will always ready to play and ready to roar on the
+                  field. So come on!!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/Images/3.png" class="d-block img w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/Images/4.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- club section -->
+
+    <section class="container club">
+      <hr />
+      <div class="descrip11">
+        <h1 class="h_p">Professional Hockeys Club</h1>
+        <p>
+          Our club was one of the best club. We trained players properly.We won
+          many trophies <br />
+          in competetion.we progress day by day and try to improve.
+        </p>
+      </div>
+
+      <hr />
+    </section>
+    <!-- progress section -->
+    <section class="container pr_c">
+      <div class="card">
+        <div class="percent">
+          <svg>
+            <circle cx="105" cy="105" r="100"></circle>
+            <circle cx="105" cy="105" r="100" style="--percent: 30"></circle>
+          </svg>
+          <div class="number">
+            <h3>87<span>%</span></h3>
+          </div>
+        </div>
+        <div class="title">
+          <h2 class="head">Player Facility</h2>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="percent">
+          <svg>
+            <circle cx="105" cy="105" r="100"></circle>
+            <circle cx="105" cy="105" r="100" style="--percent: 70"></circle>
+          </svg>
+          <div class="number">
+            <h3>70<span>%</span></h3>
+          </div>
+        </div>
+        <div class="title">
+          <h2 class="head">Experienced Coach</h2>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="percent">
+          <svg>
+            <circle cx="105" cy="105" r="100"></circle>
+            <circle cx="105" cy="105" r="100" style="--percent: 90"></circle>
+          </svg>
+          <div class="number">
+            <h3>90<span>%</span></h3>
+          </div>
+        </div>
+        <div class="title">
+          <h2 class="head">Senior Player</h2>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="percent">
+          <svg>
+            <circle cx="105" cy="105" r="100"></circle>
+            <circle cx="105" cy="105" r="100" style="--percent: 80"></circle>
+          </svg>
+          <div class="number">
+            <h3>80<span>%</span></h3>
+          </div>
+        </div>
+        <div class="title">
+          <h2 class="head">Training Ground</h2>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <hr />
+    </section>
+
+    <!-- junior and teenage programme section -->
+
+    <section class="container">
+      <div class="programm">
+        <h1>Program Sections</h1>
+        <p>
+          We offer many programme of hockey. Our programme is three type. All
+          level can play this.
+        </p>
+      </div>
+    </section>
+
+    <section class="container">
+      <hr />
+    </section>
+
+    <section class="container programme_section">
+      <div class="progmm">
+        <div class="descrip">
+          <h1>Junior Program</h1>
+          <p>
+            We offer junior programe. Where a junior can join this and play
+            <br />
+            hocky.This programme will help junoir became a great player
+          </p>
+          <button class="btn_p">Registar Now</button>
+        </div>
+      </div>
+      <div class="progmm1" id="pr">
+        <div class="descrip">
+          <h1>Teenager Program</h1>
+          <p>
+            We offer Teenage programe. Where a Teannage can join this and play
+            <br />
+            hocky.This programme will help teeange for practice and make them
+            skillfull
+          </p>
+          <button class="btn_p">Registar Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- professional programm section -->
+    <section class="container">
+      <div class="pro">
+        <div class="descrip1">
+          <h1>Professional Program</h1>
+          <p>
+            We offer Professional programme. Where a Professional can join this
+            and play <br />
+            hocky.This programme will help Professional for tournament and make
+            them successfull
+          </p>
+          <button class="btn_p">Registar Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <hr />
+    </section>
+
+    <!-- product section -->
+
+    <section class="container">
+      <div class="programm">
+        <h1>Product Sections</h1>
+        <p>
+          Here you got many kinds of cloth and jersy of our club.And you can buy
+          this and cheer you team.
+        </p>
+      </div>
+    </section>
+
+    <section class="container">
+      <hr />
+    </section>
+
+    <section class="product container">
+      <div class="product_list">
+        <div class="product_details">
+          <div class="p_img">
+            <img src="/Images/5.png" alt="" />
+          </div>
+          <div class="icon">
+            <i class="  fa-solid fa-star"> 5.0</i>
+            <i class=" ic fa-regular fa-eye"> 540</i>
+            <i class=" ic fa-regular fa-heart"> 320</i>
+            <div class="pro_descrip">
+              <h3>World Cup Flags Football</h3>
+              <p>You will collect world cup jersy.</p>
+            </div>
+            <div class="price_deliv">
+              <div class="price">
+                <h4>Price - $28.00</h4>
+              </div>
+              <div class="deli">
+                <div class="icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="deli_descrip">
+                  <p>Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product_list">
+        <div class="product_details">
+          <div class="p_img">
+            <img src="/Images/6.png" alt="" />
+          </div>
+          <div class="icon">
+            <i class="  fa-solid fa-star"> 5.0</i>
+            <i class=" ic fa-regular fa-eye"> 450</i>
+            <i class=" ic fa-regular fa-heart"> 130</i>
+            <div class="pro_descrip">
+              <h3>World Cup Football</h3>
+              <p>You will collect world cup footaballs.</p>
+            </div>
+            <div class="price_deliv">
+              <div class="price">
+                <h4>Price - $27.00</h4>
+              </div>
+              <div class="deli">
+                <div class="icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="deli_descrip">
+                  <p>Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+
+
+    </section>
+    <section class="product container">
+      <div class="product_list">
+        <div class="product_details">
+          <div class="p_img">
+            <img src="/Images/7.png" alt="" />
+          </div>
+          <div class="icon">
+            <i class="  fa-solid fa-star"> 5.0</i>
+            <i class=" ic fa-regular fa-eye"> 450</i>
+            <i class=" ic fa-regular fa-heart"> 530</i>
+            <div class="pro_descrip">
+              <h3>World Cup Flags cap</h3>
+              <p>You will collect world cup caps.</p>
+            </div>
+            <div class="price_deliv">
+              <div class="price">
+                <h4>Price - $25.00</h4>
+              </div>
+              <div class="deli">
+                <div class="icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="deli_descrip">
+                  <p>Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product_list">
+        <div class="product_details">
+          <div class="p_img">
+            <img src="/Images/8.png" alt="" />
+          </div>
+          <div class="icon">
+            <i class="  fa-solid fa-star"> 5.0</i>
+            <i class=" ic fa-regular fa-eye"> 250</i>
+            <i class=" ic fa-regular fa-heart"> 430</i>
+            <div class="pro_descrip">
+              <h3>World Cup jersy Football</h3>
+              <p>You will collect world cup jersy.</p>
+            </div>
+            <div class="price_deliv">
+              <div class="price">
+                <h4>Price - $20.00</h4>
+              </div>
+              <div class="deli">
+                <div class="icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="deli_descrip">
+                  <p>Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+
+
+    </section>
+    <section class="product container">
+      <div class="product_list">
+        <div class="product_details">
+          <div class="p_img">
+            <img src="/Images/9.png" alt="" />
+          </div>
+          <div class="icon">
+            <i class="  fa-solid fa-star"> 5.0</i>
+            <i class=" ic fa-regular fa-eye"> 350</i>
+            <i class=" ic fa-regular fa-heart"> 230</i>
+            <div class="pro_descrip">
+              <h3>World Cup Helment</h3>
+              <p>You will collect world cup helmet.</p>
+            </div>
+            <div class="price_deliv">
+              <div class="price">
+                <h4>Price - $24.00</h4>
+              </div>
+              <div class="deli">
+                <div class="icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="deli_descrip">
+                  <p>Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product_list">
+        <div class="product_details">
+          <div class="p_img">
+            <img src="/Images/10.png" alt="" />
+          </div>
+          <div class="icon">
+            <i class="  fa-solid fa-star"> 5.0</i>
+            <i class=" ic fa-regular fa-eye"> 100</i>
+            <i class=" ic fa-regular fa-heart"> 130</i>
+            <div class="pro_descrip">
+              <h3>World Cup Football</h3>
+              <p>You will collect world cup footballs.</p>
+            </div>
+            <div class="price_deliv">
+              <div class="price">
+                <h4>Price - $29.00</h4>
+              </div>
+              <div class="deli">
+                <div class="icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="deli_descrip">
+                  <p>Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- client section -->
+<section class="container">
+  <hr />
+</section>
+
+<section class="container">
+  <div class="programm">
+    <h1>Clients Question</h1>
+    <p>
+    Our honrable clients you wiil give feedback and ask anything we will try our best to solve any  problem happend.
+    </p>
+  </div>
+</section>
+
+<section class="container">
+  <hr />
+</section>
+
+<section class="container client">
+<div class="img_cli">
+  <img src="/Images/11.png" alt="">
+</div>
+
+<div class="faq">
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          Our Equipment
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <div class="accordion-body">
+          <strong>This is the Our Equipment section.</strong> "Our equipment" typically refers to the tools, gear, or machinery used in a particular activity or industry. In various contexts, it could include anything from sports equipment like hockey sticks and skates to specialized machinery in manufacturing plants. Ensuring that equipment is well-maintained, up-to-date, and suited to the task at hand is essential for safety, efficiency, and optimal performance. Regular inspections, maintenance schedules, and training on proper usage help maximize the lifespan and effectiveness of equipment while minimizing downtime and safety risks. Whether it's sports gear, office technology, or industrial machinery, having the right equipment can significantly impact productivity, success, and overall satisfaction in the respective activity or profession.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          Hockey Training 
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+        <div class="accordion-body">
+          <strong>This is the Hockey Training faq.</strong> Hockey training encompasses a range of activities designed to improve players' skills, fitness, and overall performance on the ice. This training often includes drills focused on skating, puck handling, shooting, passing, and game tactics. Off-ice training may involve strength and conditioning exercises to enhance speed, agility, and endurance. Players also work on their mental game, developing strategies for decision-making and maintaining focus under pressure. Hockey training programs may be tailored to various skill levels and age groups, with specialized coaching available for goaltenders and specific positions. Additionally, hockey camps and clinics offer immersive training experiences, fostering camaraderie and skill development in a supportive environment.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+          Private Lessons 
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+        <div class="accordion-body">
+          <strong>This is the Private Lessons faq.</strong> Private lessons offer personalized instruction tailored to the individual's needs and skill level, providing a more focused and efficient learning experience compared to group classes. Whether in sports, academics, or hobbies, private lessons allow for customized lesson plans and one-on-one attention from an expert instructor, leading to quicker progress and mastery of skills. They are particularly beneficial for those who prefer individualized guidance, have specific learning objectives, or require remedial support. Private lessons can be conducted in person or online, offering flexibility and convenience to accommodate busy schedules. While they may come at a higher cost compared to group classes, the personalized attention and accelerated learning make private lessons a valuable investment for those committed to achieving their goals.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Sky Touring
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"><strong>This is the ski touring faq.</strong> Ski touring, also known as backcountry skiing, involves traveling through snowy terrain using skis equipped with climbing skins to ascend slopes and then skiing downhill. It offers a unique outdoor experience, allowing enthusiasts to explore remote and untouched areas away from crowded resorts. Safety is paramount in ski touring, as it often takes place in avalanche-prone terrain, requiring participants to have proper training, avalanche awareness, and essential safety equipment like beacons, shovels, and probes. Ski touring appeals to those seeking adventure, solitude, and a deeper connection with nature, offering opportunities to enjoy pristine landscapes and challenging terrain while practicing a sustainable approach to winter recreation.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Bookings
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"> 
+          <strong>This is the Booking section.</strong> Handling bookings efficiently involves implementing a streamlined system that allows customers to schedule appointments or reservations conveniently. Choose a booking system that suits your business needs and encourages customers to book by offering incentives and providing a user-friendly interface. Clear policies for cancellations and changes are essential, along with periodic reviews to optimize the booking process and enhance customer satisfaction
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Pricings
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">  <strong>This is the pricing faq.</strong> Pricing involves balancing factors like costs, competition, and value. Regular review and adjustment are vital. Communicate value clearly to justify prices. Use discounts strategically and listen to customer feedback. If needed, transparently raise prices with clear communication.</div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</section>
+
+<!-- get in touch section -->
+<section class="container">
+  <hr />
+</section>
+
+<section class="container">
+  <div class="programm">
+    <h1>Get In Touch</h1>
+    <p>
+    Stay connected with us for become a part of our family
+    </p>
+  </div>
+</section>
+
+<section class="container">
+  <hr />
+
+
+  <section class="container form">
+
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Enter your name">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label"  p>Your Email</label>
+        <input type="email" class="form-control" id="inputAddress" placeholder="Enter your Email">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Subject</label>
+        <input type="text" class="form-control si" id="inputAddress" placeholder="Enter your subject">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Phone Number</label>
+        <input type="text" class="form-control si" id="inputAddress2" placeholder="Enter your phone number">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">Message</label>
+        <input type="text" class="form-control mes" id="inputCity">
+      </div>
+ 
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  
+  </section>
+
+
+  <!-- social icon section -->
+<section class=" container social_icon">
+<div class="s_ii">
+  <h1>Social Media</h1>
+<i class="fa-brands fa-facebook fi"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-linkedin"></i>
+<i class="fa-brands fa-twitter"></i>
+</section>
+</div>
+<!-- footer section -->
+<footer class="bg-dark text-white foot p-5 d-flex">
+<div>
+  <h1>Get In Touch</h1>
+  <p>We are always here for your kind infomation and playing.</p>
+ <div> <i class="fa-regular fa-envelope"> hockys@gmail.com</i></div>
+  <i class="fa-solid fa-phone"> 01626681291</i>
+</div>
+<div>
+  <li class="list-group-item">Company</li>
+  <li class="list-group-item"> </li>About us</li>
+  <li class="list-group-item"></li>Leadership</li>
+  <li class="list-group-item"></li>Careers</li>
+  <li class="list-group-item"> </li>News & Article</li>
+  <li class="list-group-item"></li>Legal Notice</li>
+</div>
+<div>
+  <li class="list-group-item"></li>Support</li>
+  <li class="list-group-item"></li>Help Center</li>
+  <li class="list-group-item"></li>FAQ</li>
+  <li class="list-group-item"></li>Careers</li>
+  <li class="list-group-item"></li>Ticket Support</li>
+  <li class="list-group-item"></li>Contact Us</li>
+</div>
+<div>
+  <li class="list-group-item"></li>Services</li>
+  <li class="list-group-item"></li>Academy</li>
+  <li class="list-group-item"></li>Group Lesson</li>
+  <li class="list-group-item"></li>Hockeys for kids</li>
+  <li class="list-group-item"></li>Hockeys for Adult</li>
+</div>
+
+
+  
+</footer>
+
+
+
+  </body>
+</html>
+
